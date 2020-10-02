@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="178dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="113dp"
+            android:text="MSV: 1811505310338    Nguyễn Hữu Thắng"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"
+            android:text="Trường Đại Học SPKT-ĐHĐN"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="297dp"
+            android:text="Danh Sách Nhân Vật One Piece Yêu Thích"
+            android:textColor="#0404B4"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="137dp"
+            android:layout_marginRight="137dp"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/buttonstylepink"
+            android:drawableRight="@drawable/ic_baseline_send_24"
+            android:drawablePadding="10dp"
+            android:text="Xem"
+            android:textColor="#000"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            
+            android:id="@+id/imageView"
+            android:layout_width="306dp"
+            android:layout_height="188dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="417dp"
+            app:srcCompat="@drawable/op" />
+</RelativeLayout>
